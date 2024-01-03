@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_gesture_event" id="1[1xh9a+q,kr)w`F:wrq" x="12" y="-412"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="device_show_leds" id="30LZw0.xW79JSp{6/`%J"><field name="LEDS">`
+        # # . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="radio_datagram_send" id="8G`3DJ!2w$lLaJ:|.4vU"><value name="value"><shadow type="math_number" id="1c(l(QSXQ3A[J_Q}/MK2"><field name="NUM">0</field></shadow></value></block></next></block></statement></block><block type="device_forever" id="vG+8/lxj[/q.4dG$F^P8" x="422" y="-423"><statement name="HANDLER"><block type="radio_set_group" id=")~nvzIjLXp{M/VMtXV9|"><value name="ID"><shadow type="math_number_minmax" id="8?AUX`)zUOqrtuJnmxPz"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">1</field></shadow></value></block></statement></block><block type="device_gesture_event" id="TVozl(HWLf_cy:P,8Ut7" x="0" y="0"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="device_show_leds" id="ud2r0Gh^5/qs27[qvh#}"><field name="LEDS">`
+        . . . # # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="radio_datagram_send" id="z!W_y@iYGjR[t,cC/TXc"><value name="value"><shadow type="math_number" id="p(D-?5=;$4m@6^X|V`Gd"><field name="NUM">1</field></shadow></value></block></next></block></statement></block></xml>
